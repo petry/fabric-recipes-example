@@ -34,3 +34,8 @@ def setup():
 @task
 def deploy():
     my_deploy.deploy()
+
+
+@task
+def status():
+    my_deploy.status()
