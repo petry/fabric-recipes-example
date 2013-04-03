@@ -2,8 +2,8 @@ import os
 from fabric.decorators import task
 from fabric.api import env
 from os.path import join
+from recipes.django import DjangoDeploy
 
-from recipes import DjangoDeploy
 
 env.project_name = "my_project"
 env.project_domain = "my_project.com"
