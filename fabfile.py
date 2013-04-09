@@ -3,10 +3,6 @@ from recipes.project import ProjectDeploy
 
 my_deploy = ProjectDeploy()
 
-@task
-def setup():
-    my_deploy.setup()
-
 
 @task
 def deploy():
